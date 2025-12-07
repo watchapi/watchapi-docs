@@ -41,10 +41,15 @@ Install globally:
 npm install -g @watchapi/cli
 ```
 
-Export your token and sync tRPC/OpenAPI routes:
+Login to your account:
 
 ```bash
-export WATCHAPI_TOKEN=wai_your_token_here
+watchapi login --api-token wai_your_token_here
+```
+
+Sync your APIs:
+
+```bash
 watchapi sync --domain https://api.example.com --prefix api/trpc
 ```
 
