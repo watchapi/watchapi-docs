@@ -30,7 +30,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
           //   banner={banner}
           navbar={navbar}
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/watchapi/watchapi-cli/tree/main/"
+          docsRepositoryBase="https://github.com/watchapi/watchapi-docs/tree/main/"
           footer={footer}
         >
           {children}
