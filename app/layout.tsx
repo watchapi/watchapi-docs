@@ -17,6 +17,19 @@ type RootLayoutProps = {
 export const metadata: Metadata = {
   title: "WatchAPI Docs",
   description: "Product documentation for the WatchAPI monitoring platform.",
+  icons: {
+    icon: [
+      { url: "/favicon.png" },
+      {
+        url: "/favicon-light.png",
+        media: "(prefers-color-scheme: light)",
+      },
+      {
+        url: "/favicon-dark.png",
+        media: "(prefers-color-scheme: dark)",
+      },
+    ],
+  },
 };
 
 const banner = <Banner storageKey="some-key">Nextra 4.0 is released 🎉</Banner>;
