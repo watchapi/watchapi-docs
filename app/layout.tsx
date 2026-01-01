@@ -32,7 +32,6 @@ export const metadata: Metadata = {
   },
 };
 
-const banner = <Banner storageKey="some-key">Nextra 4.0 is released 🎉</Banner>;
 const navbar = (
   <Navbar
     logo={<Logo />}
@@ -51,7 +50,10 @@ const footer = (
         <a href="https://watchapi.dev" className="hover:text-inherit">
           Home
         </a>
-        <a href="https://status.watchapi.dev" className="hover:text-inherit">
+        <a
+          href="https://stats.uptimerobot.com/O0uUSDGYUC"
+          className="hover:text-inherit"
+        >
           Status
         </a>
         <a href="mailto:support@watchapi.dev" className="hover:text-inherit">
@@ -84,7 +86,6 @@ export default async function RootLayout({ children }: RootLayoutProps) {
       <body>
         <Layout
           search={false}
-          //   banner={banner}
           navbar={navbar}
           pageMap={await getPageMap()}
           docsRepositoryBase="https://github.com/watchapi/watchapi-docs/tree/main/"
