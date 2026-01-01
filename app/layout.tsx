@@ -51,6 +51,8 @@ const footer = (
           Home
         </a>
         <a
+          rel="nofollow noreferrer noopener"
+          target="_blank"
           href="https://stats.uptimerobot.com/O0uUSDGYUC"
           className="hover:text-inherit"
         >
