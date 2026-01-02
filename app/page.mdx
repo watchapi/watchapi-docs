@@ -1,29 +1,62 @@
-# Overview
+# Welcome to WatchAPI Client
 
-WatchAPI is an API monitoring platform for engineering teams. Schedule health
-checks, track uptime and latency, and alert the right channels when something
-breaks—all in a few clicks.
+**WatchAPI Client** is a VS Code–native API client that **imports API endpoints from your codebase** and turns them into structured, executable collections.
 
-## What You Get
+It reads your actual source code — not OpenAPI files — so the requests you work with always reflect how your API is really defined.
 
-- **Always-on monitoring:** HTTP checks on your endpoints with status, latency,
-  and failure history.
-- **Uptime dashboards:** See which services are up, down, or flapping with
-  recent trends.
-- **Alerting:** Email, webhook, Slack, and Discord notifications with sensible
-  throttling to avoid alert storms.
-- **Collections and teams:** Organize endpoints by product or environment;
-  invite teammates to share ownership.
-- **CLI + sync:** Push your tRPC/OpenAPI endpoints from code so checks stay in
-  lockstep with your schemas.
+---
 
-## Quick Links
+## What WatchAPI Client Does
 
-- [Getting Started](/getting-started) — create a workspace and add your first
-  checks.
-- [Monitoring](/monitoring) — how checks run, intervals, and data retained.
-- [Alerts](/alerts) — configuring channels and rules.
-- [API & CLI Access](/api-access) — tokens, CLI setup, and sync examples.
+WatchAPI Client helps you:
 
-If you get stuck, contact support from the in-app Help menu or email
-support@watchapi.io.
+- Import REST endpoints directly from your code
+- Import tRPC procedures from routers
+- Organize endpoints into readable collections
+- Execute requests without leaving VS Code
+- Keep manual edits intact between imports
+
+Each import only **adds new endpoints**.
+Existing requests are never modified or removed.
+
+---
+
+## Designed for Code-First APIs
+
+WatchAPI Client is built for modern TypeScript projects where **code is the source of truth**.
+
+By importing endpoints directly from handlers and routers, it avoids duplicated definitions and reduces drift between code and testing tools.
+
+---
+
+## Supported Technologies
+
+WatchAPI Client currently supports:
+
+- **Next.js** app and pages route handlers
+- **NestJS**
+- **tRPC**
+
+Support expands carefully to maintain correctness.
+
+---
+
+## What This Documentation Covers
+
+In these docs, you’ll learn how to:
+
+- Install WatchAPI Client
+- Import endpoints from your project
+- Re-run imports safely
+- Work with imported collections
+- Execute and inspect requests
+
+---
+
+## Get Started
+
+Start with:
+
+👉 **Installation**
+👉 **Importing Endpoints**
+👉 **Running Requests**
